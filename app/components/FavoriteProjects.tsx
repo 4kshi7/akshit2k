@@ -1,8 +1,6 @@
 import Image from "next/image";
 import { ProjectsCard } from "../lib/interface";
-import kaagaz from "../../assets/Kaagaz.png";
-import { Github, GithubIcon } from "lucide-react";
-import Link from "next/link";
+import { GithubIcon } from "lucide-react";
 
 async function getData() {
   const data: ProjectsCard[] = [
@@ -57,7 +55,7 @@ export async function FavoriteProjects() {
   return (
     <div className="py-10 grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 lg:gap-12 grid-cols-1">
       {data.map((item) => (
-        <div>
+        <div key={item._id}>
           <div className="aspect-w-16 aspect-h-12 overflow-hidden rounded-2xl relative">
             <a
               href={item.link}
