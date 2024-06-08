@@ -31,7 +31,7 @@ export function Navbar() {
       <div className="col-span-6 flex md:col-span-3">
         <Link href="/">
           <h1 className="text-3xl font-semibold">
-            Akshit<span className="text-blue-500">2k</span>
+            Akshit<span className="text-blue-500"> Gaur</span>
           </h1>
         </Link>
       </div>
