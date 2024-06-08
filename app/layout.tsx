@@ -20,7 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/favicon.ico" sizes="any" type="image/x-icon" />
         <link rel="icon" type="image/svg+xml" href={yzy.src} />
         <meta
           name="description"
