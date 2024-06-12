@@ -62,8 +62,8 @@ const socialMedia = [
     id: 2,
     icon: twitter,
     name: "X / Twitter",
-    username: "@Akshit4pf",
-    link: "https://x.com/Akshit4pf",
+    username: "@akshit2k",
+    link: "https://twitter.com/akshit2k",
   },
   {
     id: 3,
