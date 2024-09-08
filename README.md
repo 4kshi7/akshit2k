@@ -12,3 +12,10 @@ naah
 lmaooo 
 naaah
 sike
+ohhh 
+hell
+nawww
+what 
+is 
+slawg
+doing
